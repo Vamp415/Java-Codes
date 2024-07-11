@@ -6,7 +6,7 @@ public class GuessingNumber {
         Random rand = new Random();
         int numberToGuess = rand.nextInt(100);
         int numberOfTries = 0;
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner (System.in);
         int guess;
         while (true) {
             System.out.print("Guess a number between 1 and 100: ");
