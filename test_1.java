@@ -90,13 +90,13 @@ class PrimeNonPrimeSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the first number (x): ");
+        System.out.print("(x): ");
         PrimeNonPrimeSum obj = new PrimeNonPrimeSum(scanner.nextInt());
 
-        System.out.print("Enter the second number (y): ");
+        System.out.print("(y): ");
         y = scanner.nextInt();
 
-        System.out.print("Enter the final number (z): ");
+        System.out.print("(z): ");
         obj.x = scanner.nextInt();
 
         int sum = 0;
